@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+.form-wrapper{
+    box-shadow: 0px 10px 10px red
+}
+
+.form-wrapper h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pizzeriaForm{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pizzeriaForm .price-and-heat
+{
+    display: -webkit-inline-box;
+}
+
+.pizzeriaForm .name-field{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizzeriaForm .name-field input{
+    width: 240px;
+}
+
+.pizzeriaForm .price-and-heat{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizzeriaForm .price-and-heat input{
+    width: 116px;
+}
+
+.pizzeriaForm .price-and-heat .price-field{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.pizzeriaForm .toppings{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.pizzeriaForm .picture-selector{
+    padding-bottom: 20px;
+}
+
+.pizzeriaForm .submit-button{
+    padding-bottom: 20px;
+}
+
+.pizza-menu-wrapper
+{
+    display: grid;
+}
+
+.top{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top h1{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.pizza-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.pizza-menu pizza-card{
+    margin: 10px;
+    min-height: 540px;
+}
